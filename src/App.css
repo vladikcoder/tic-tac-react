@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.App-restart-btn {
+  background: lightgrey;
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  padding: 10px;
+}
+
+.App-restart-btn:hover {
+  background: #d6e5ff;
+}
+
+.App-win-cell {
+  background: lightblue;
+}
+
+td {
+  border: 10px solid grey;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  transition: background 1s ease-in-out;
+}
+
+tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr td:first-child {
+  border-left: none;
+}
+
+tr td:last-child {
+  border-right: none;
+}
